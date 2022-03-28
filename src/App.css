@@ -1,0 +1,48 @@
+.App{
+  background-color: lightyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.App h1{
+  color: orange;
+}
+input{
+  width: 50%;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 20px;
+}
+.form-box{
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Task-title{
+  margin: 0;
+  padding: 0px;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+.reset-button{
+  background-color:orange;
+  width: 10vw;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+  color: white;
+}
+.li-style{
+  list-style-type: square;
+  font-style:normal;
+  font-size: 30px;
+  font-weight: bold;
+  color: lightcoral;
+  margin: 0;
+  padding: 0;
+}
+
+/*rgb(96, 243, 162); rgb(32, 57, 58); */
